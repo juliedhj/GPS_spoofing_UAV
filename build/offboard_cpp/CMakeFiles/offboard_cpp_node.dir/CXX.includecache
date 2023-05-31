@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/julie/catkin_ws/src/offboard_cpp/src/offb_node.cpp
+ros/ros.h
+-
+mavros_msgs/CommandBool.h
+-
+mavros_msgs/SetMode.h
+-
+mavros_msgs/State.h
+-
+mavros_msgs/GlobalPositionTarget.h
+-
+sensor_msgs/NavSatFix.h
+-
+
