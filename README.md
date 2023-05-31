@@ -1,6 +1,6 @@
 # GPS_spoofing_UAV
 
-This packet will make you able to perfom a GPS spoofing attack. 
+This packet contains code to perform a GPS spoofing attack. 
 Make sure you have ROS 1, MAVROS, PX4 Autopilot, Gazebo Classic and QGroundControl installed on an Ubunutu 20.04 machine. 
 
 1. Change the GPS coordinates in the file spoofing.py located in /src/offboard_py/scripts/spoofing.py to decide where to spoof the UAV. 
